@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "test.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "test.md"
+                "file": "index.md"
               }
             }
           }
@@ -148,22 +148,26 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
-      "graph:그래프 뷰 열기": false,
-      "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
-      "webpage-html-export:Export Vault to HTML": false,
-      "obsidian-kanban:새 보드 만들기": false,
-      "obsidian-rich-links:Rich Links": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-rich-links:Rich Links": false,
+      "webpage-html-export:Export Vault to HTML": false
     }
   },
   "active": "e85638fcd2d3f4e4",
   "lastOpenFiles": [
     "test.md",
-    "index.md",
+    "docs/test.html",
+    "docs/readme.html",
+    "docs/index.html",
     "README.md",
+    "index.md",
+    "docs/lib/styles/other-plugins.css",
     "이름 없는 보드.md",
     "이름 없는 보드 1.md",
     "docs/lib/search-index.json",
@@ -172,10 +176,6 @@
     "docs/lib/styles/main-styles.css",
     "docs/lib/styles/global-variable-styles.css",
     "docs/lib/styles",
-    "docs/lib/scripts/graph-data.js",
-    "docs/lib/scripts/minisearch.js",
-    "docs/lib/scripts/pixi.js",
-    "docs/lib/scripts/tinycolor.js",
     "docs/lib/media/favicon.png",
     "docs/lib/media/3d6c1bdc4d87cde4de67.svg",
     "docs/lib/media/874d8b8e340f75575caa.svg",
