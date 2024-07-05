@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "test.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "test.md"
+                "file": "index.md"
               }
             }
           }
@@ -175,32 +175,28 @@
                 "id": "2c33ae7fb73ff1f3",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "test.md",
-                    "mode": "source",
-                    "source": false
-                  }
+                  "type": "empty",
+                  "state": {}
                 }
               }
             ]
           }
         ],
         "direction": "vertical",
-        "x": 317,
+        "x": 316,
         "y": 316,
-        "width": 902,
-        "height": 500,
+        "width": 908,
+        "height": 503,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "2c33ae7fb73ff1f3",
+  "active": "b323c8d46d867f7b",
   "lastOpenFiles": [
-    "모각코 계획.md",
-    "Tags/Untitled.md",
     "test.md",
+    "index.md",
+    "Tags/Untitled.md",
     "1회차 .md",
     "README.md",
     "docs/test.html",
