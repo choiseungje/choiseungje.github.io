@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "4a53a2dcc76747b9",
+        "id": "5a00487f408b9db7",
         "type": "tabs",
         "children": [
           {
-            "id": "b323c8d46d867f7b",
+            "id": "dd4ec6d060a5d35e",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {}
             }
           }
@@ -151,9 +151,11 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "b323c8d46d867f7b",
+  "active": "dd4ec6d060a5d35e",
   "lastOpenFiles": [
+    "Untitled Kanban.md",
     "index.md",
+    "2024-07-05.md",
     "docs/index.html",
     "1회차 .md",
     "Tags/Untitled.md",
