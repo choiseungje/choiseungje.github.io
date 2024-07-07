@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "1회차.md",
                 "mode": "source",
                 "source": false
               }
@@ -187,10 +187,10 @@
           }
         ],
         "direction": "vertical",
-        "x": 317,
+        "x": 316,
         "y": 316,
-        "width": 902,
-        "height": 500,
+        "width": 908,
+        "height": 503,
         "maximize": false,
         "zoom": 0
       }
@@ -198,9 +198,10 @@
   },
   "active": "92de79eaa466ba82",
   "lastOpenFiles": [
+    "1회차.md",
+    "Untit.md",
     "index.md",
     "Tags/Untitled.md",
-    "1회차.md",
     "Untitled Kanban.md",
     "2024-07-05.md",
     "docs/index.html",
