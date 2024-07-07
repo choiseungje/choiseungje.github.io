@@ -11,7 +11,7 @@ sticker: ""
 
 ## 개인별 블로그
 [김수진](https://wldwlddl.github.io/)
-[류시현](https://ryuuhyun.github.io/)
+[류시현](https://ryuuhyun.github.io/index.html)
 
 
 

@@ -41,7 +41,8 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "/",
-    "//docs/docs/1회차-.md"
+    "//docs/docs/1회차-.md",
+    "//Tags"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
