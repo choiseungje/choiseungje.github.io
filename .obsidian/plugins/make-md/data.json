@@ -40,9 +40,11 @@
   "showRibbon": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "/",
     "//docs/docs/1회차-.md",
-    "//Tags"
+    "//Tags",
+    "//docs",
+    "/",
+    "spaces://$tags"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "전역최적해 팀/1회차.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "전역최적해 팀/1회차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "전역최적해 팀/1회차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "전역최적해 팀/1회차.md"
               }
             }
           }
@@ -161,11 +160,15 @@
   },
   "active": "dd4ec6d060a5d35e",
   "lastOpenFiles": [
-    "index.md",
-    "1회차.md",
-    "Tags/Untitled.md",
+    "choiseungje 개인/1회차.md",
+    "전역최적해 팀/1회차.md",
+    "전역최적해 팀/index.md",
+    "choiseungje 개인",
     "Untit.md",
+    "전역최적해 팀",
+    "Untitled.md",
     "Untitled Kanban.md",
+    "Tags/1회차.md",
     "2024-07-05.md",
     "docs/index.html",
     "1회차 .md",
@@ -179,8 +182,6 @@
     "docs/lib/metadata.json",
     "docs/lib/styles/obsidian.css",
     "docs/lib/styles/main-styles.css",
-    "docs/lib/styles/global-variable-styles.css",
-    "docs/lib/styles",
     "docs/lib/media/favicon.png",
     "docs/lib/media/3d6c1bdc4d87cde4de67.svg",
     "docs/lib/media/874d8b8e340f75575caa.svg",
