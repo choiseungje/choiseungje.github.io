@@ -9,7 +9,7 @@ sticker: ""
 ## 개인별 블로그
 [김수진](https://wldwlddl.github.io/)
 [류시현](https://ryuuhyun.github.io/index.html)
-[최승제]([index (choiseungje.github.io)](https://choiseungje.github.io/choiseungje-%EA%B0%9C%EC%9D%B8/))
+[최승제](https://choiseungje.github.io/choiseungje-개인/)
 
 
 
