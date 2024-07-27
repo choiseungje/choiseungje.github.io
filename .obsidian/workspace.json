@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전역최적해 팀/index.md",
+                "file": "choiseungje 개인/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -86,7 +85,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "choiseungje 개인/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "choiseungje 개인/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "choiseungje 개인/index.md"
               }
             }
           }
@@ -194,44 +194,57 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "fa82dfa6a3b03943",
+                "type": "leaf",
+                "state": {
+                  "type": "release-notes",
+                  "state": {
+                    "currentVersion": "1.6.7"
+                  }
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical",
-        "x": 317,
+        "x": 316,
         "y": 316,
-        "width": 902,
-        "height": 500,
+        "width": 908,
+        "height": 503,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "0e242531cbf42648",
+  "active": "dd4ec6d060a5d35e",
   "lastOpenFiles": [
     "index.md",
-    "전역최적해 팀/계획.md",
+    "docs/choiseungje-개인/2회차.html",
+    "docs/전역최적해-팀/2회차.html",
+    "전역최적해 팀/2회차.md",
     "choiseungje 개인/index.md",
+    "choiseungje 개인/1회차.md",
+    "choiseungje 개인/2회차.md",
+    "전역최적해 팀/1회차.md",
+    "Tags",
+    "전역최적해 팀/계획.md",
     "전역최적해 팀/index.md",
     "docs/choiseungje-개인/index.html",
     "docs/전역최적해-팀/index.html",
-    "전역최적해 팀/1회차.md",
     "docs/index.html",
     "docs/choiseungje-개인/1회차.html",
     "docs/choiseungje-개인",
-    "choiseungje 개인/1회차.md",
     "docs/전역최적해-팀/1회차.html",
     "docs/전역최적해-팀",
-    "choiseungje 개인",
     "Untit.md",
-    "전역최적해 팀",
     "Untitled Kanban.md",
     "Tags/1회차.md",
     "2024-07-05.md",
     "1회차 .md",
     "README.md",
-    "docs/test.html",
     "이름 없는 보드.md",
     "이름 없는 보드 1.md",
     "docs/lib/media/favicon.png",

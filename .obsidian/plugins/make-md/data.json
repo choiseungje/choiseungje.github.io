@@ -44,7 +44,9 @@
     "//Tags",
     "//docs",
     "/",
-    "spaces://$tags"
+    "spaces://$tags",
+    "//choiseungje 개인",
+    "//전역최적해 팀"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
