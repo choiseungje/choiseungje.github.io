@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "choiseungje 개인/3회차.md",
+                "file": "전역최적해 팀/3회차.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "choiseungje 개인/3회차.md",
+                "file": "전역최적해 팀/3회차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "choiseungje 개인/3회차.md",
+                "file": "전역최적해 팀/3회차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "choiseungje 개인/3회차.md"
+                "file": "전역최적해 팀/3회차.md"
               }
             }
           }
@@ -173,12 +173,12 @@
   },
   "active": "dd4ec6d060a5d35e",
   "lastOpenFiles": [
+    "전역최적해 팀/2회차.md",
+    "전역최적해 팀/3회차.md",
+    "choiseungje 개인/3회차.md",
     "docs/choiseungje-개인/3회차.html",
     "docs/전역최적해-팀/3회차.html",
     "choiseungje 개인/2회차.md",
-    "choiseungje 개인/3회차.md",
-    "전역최적해 팀/2회차.md",
-    "전역최적해 팀/3회차.md",
     "choiseungje 개인/1회차.md",
     "choiseungje 개인/index.md",
     "전역최적해 팀/1회차.md",
@@ -193,7 +193,6 @@
     "docs/index.html",
     "docs/choiseungje-개인/1회차.html",
     "docs/choiseungje-개인",
-    "docs/전역최적해-팀/1회차.html",
     "Untit.md",
     "Untitled Kanban.md",
     "Tags/1회차.md",
