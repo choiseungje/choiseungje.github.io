@@ -55,7 +55,11 @@
   "folderContextFile": "context",
   "folderFrameFile": "frames",
   "spacesFolder": "Tags",
-  "hiddenFiles": [],
+  "hiddenFiles": [
+    "Pasted image 20240730155219.png",
+    "Pasted image 20240730155302.png",
+    "Pasted image 20240730162206.png"
+  ],
   "hiddenExtensions": [
     ".mdb",
     "_assets",

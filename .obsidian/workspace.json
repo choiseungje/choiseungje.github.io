@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전역최적해 팀/3회차.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전역최적해 팀/3회차.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전역최적해 팀/3회차.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전역최적해 팀/3회차.md"
+                "file": "index.md"
               }
             }
           }
@@ -173,16 +173,22 @@
   },
   "active": "dd4ec6d060a5d35e",
   "lastOpenFiles": [
-    "전역최적해 팀/2회차.md",
     "전역최적해 팀/3회차.md",
+    "전역최적해 팀/2회차.md",
+    "전역최적해 팀/1회차.md",
+    "index.md",
+    "Pasted image 20240730162206.png",
+    "().md",
+    "전역최적해 팀/전역최적해 팀 소개.md",
+    "Pasted image 20240730155302.png",
+    "Pasted image 20240730155144.png",
+    "Pasted image 20240730155219.png",
+    "choiseungje 개인/2회차.md",
     "choiseungje 개인/3회차.md",
     "docs/choiseungje-개인/3회차.html",
     "docs/전역최적해-팀/3회차.html",
-    "choiseungje 개인/2회차.md",
     "choiseungje 개인/1회차.md",
     "choiseungje 개인/index.md",
-    "전역최적해 팀/1회차.md",
-    "index.md",
     "docs/choiseungje-개인/2회차.html",
     "docs/전역최적해-팀/2회차.html",
     "Tags",
