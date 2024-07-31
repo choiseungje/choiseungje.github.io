@@ -1,6 +1,6 @@
 {
   "vaultName": "choiseungje.github.io",
-  "lastExport": 1722325374415,
+  "lastExport": 1722408318711,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-light show-inline-title show-ribbon mk-readable-line mk-folder-lines mk-spaces-enabled mk-inline-context-enabled mk-flow-seamless",
   "useCustomHeadContent": false,
@@ -9,11 +9,16 @@
     "전역최적해 팀/1회차.md",
     "전역최적해 팀/2회차.md",
     "전역최적해 팀/3회차.md",
+    "전역최적해 팀/4회차.md",
     "choiseungje 개인/1회차.md",
     "choiseungje 개인/2회차.md",
     "choiseungje 개인/3회차.md",
+    "choiseungje 개인/4회차.md",
     "choiseungje 개인/index.md",
     "index.md",
+    "lib/media/pasted-image-20240731153007.png",
+    "lib/media/pasted-image-20240731152947.png",
+    "lib/media/pasted-image-20240731152914.png",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
@@ -79,190 +84,192 @@
   ],
   "fileInfo": {
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1722325374415,
+      "modifiedTime": 1722408318711,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1722325374415,
+      "modifiedTime": 1722408318711,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1722325374415,
+      "modifiedTime": 1722408318711,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1722325374415,
+      "modifiedTime": 1722408318711,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1722325374415,
+      "modifiedTime": 1722408318711,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1722325374415,
+      "modifiedTime": 1722408318711,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1722325374415,
+      "modifiedTime": 1722408318711,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1722325374415,
+      "modifiedTime": 1722408318711,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1722325374415,
+      "modifiedTime": 1722408318711,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1722325374415,
+      "modifiedTime": 1722408318711,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1722325374415,
+      "modifiedTime": 1722408318711,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1722325374415,
+      "modifiedTime": 1722408318711,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1722325374415,
+      "modifiedTime": 1722408318711,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1722325374415,
+      "modifiedTime": 1722408318711,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1722325374415,
+      "modifiedTime": 1722408318711,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/media/3d6c1bdc4d87cde4de67.svg": {
-      "modifiedTime": 1722325374415,
+      "modifiedTime": 1722408318711,
       "sourceSize": 279,
       "exportedPath": "lib/media/3d6c1bdc4d87cde4de67.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1722325374415,
-      "sourceSize": 4139,
+      "modifiedTime": 1722408318711,
+      "sourceSize": 4758,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1722325374415,
+      "modifiedTime": 1722408318711,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1722325374415,
+      "modifiedTime": 1722408318711,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1722325374415,
+      "modifiedTime": 1722408318711,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1722325374415,
+      "modifiedTime": 1722408318711,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1722325374415,
+      "modifiedTime": 1722408318711,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1722325374415,
+      "modifiedTime": 1722408318711,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1722325374415,
+      "modifiedTime": 1722408318711,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1722325374415,
+      "modifiedTime": 1722408318711,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1722325374415,
-      "sourceSize": 508,
+      "modifiedTime": 1722408318711,
+      "sourceSize": 576,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1722325374415,
+      "modifiedTime": 1722408318711,
       "sourceSize": 130471,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1722325374415,
+      "modifiedTime": 1722408318711,
       "sourceSize": 236,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1722325374415,
+      "modifiedTime": 1722408318711,
       "sourceSize": 23392,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1722325374415,
+      "modifiedTime": 1722408318711,
       "sourceSize": 165390,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
     },
     "전역최적해 팀/1회차.md": {
-      "modifiedTime": 1722325221152,
-      "sourceSize": 885,
+      "modifiedTime": 1722408318711,
+      "sourceSize": 721,
       "exportedPath": "전역최적해-팀/1회차.html",
-      "dependencies": []
+      "dependencies": [
+        "lib/media/pasted-image-20240731153007.png"
+      ]
     },
     "choiseungje 개인/1회차.md": {
       "modifiedTime": 1721005098576,
@@ -283,10 +290,12 @@
       "dependencies": []
     },
     "전역최적해 팀/2회차.md": {
-      "modifiedTime": 1722325221152,
-      "sourceSize": 995,
+      "modifiedTime": 1722408318711,
+      "sourceSize": 832,
       "exportedPath": "전역최적해-팀/2회차.html",
-      "dependencies": []
+      "dependencies": [
+        "lib/media/pasted-image-20240731152947.png"
+      ]
     },
     "choiseungje 개인/2회차.md": {
       "modifiedTime": 1722221423905,
@@ -295,15 +304,47 @@
       "dependencies": []
     },
     "전역최적해 팀/3회차.md": {
-      "modifiedTime": 1722325221152,
-      "sourceSize": 517,
+      "modifiedTime": 1722408318711,
+      "sourceSize": 354,
       "exportedPath": "전역최적해-팀/3회차.html",
-      "dependencies": []
+      "dependencies": [
+        "lib/media/pasted-image-20240731152914.png"
+      ]
     },
     "choiseungje 개인/3회차.md": {
-      "modifiedTime": 1722221423905,
-      "sourceSize": 0,
+      "modifiedTime": 1722408318711,
+      "sourceSize": 153,
       "exportedPath": "choiseungje-개인/3회차.html",
+      "dependencies": []
+    },
+    "전역최적해 팀/4회차.md": {
+      "modifiedTime": 1722408318711,
+      "sourceSize": 140,
+      "exportedPath": "전역최적해-팀/4회차.html",
+      "dependencies": []
+    },
+    "choiseungje 개인/4회차.md": {
+      "modifiedTime": 1722408318711,
+      "sourceSize": 0,
+      "exportedPath": "choiseungje-개인/4회차.html",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240731153007.png": {
+      "modifiedTime": 1722408318711,
+      "sourceSize": 1222408,
+      "exportedPath": "lib/media/pasted-image-20240731153007.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240731152947.png": {
+      "modifiedTime": 1722408318711,
+      "sourceSize": 724269,
+      "exportedPath": "lib/media/pasted-image-20240731152947.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240731152914.png": {
+      "modifiedTime": 1722408318711,
+      "sourceSize": 1763261,
+      "exportedPath": "lib/media/pasted-image-20240731152914.png",
       "dependencies": []
     }
   }

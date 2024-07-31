@@ -43,10 +43,12 @@
     "//docs/docs/1회차-.md",
     "//Tags",
     "//docs",
-    "/",
     "spaces://$tags",
     "//choiseungje 개인",
-    "//전역최적해 팀"
+    "//전역최적해 팀",
+    "Tags",
+    "/",
+    "//docs/docs/choiseungje-개인"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
