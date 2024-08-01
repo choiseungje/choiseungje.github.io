@@ -5,7 +5,7 @@ sticker: ""
 
 [최승제](https://choiseungje.github.io/choiseungje-개인/)(팀장)
 [김수진](https://wldwlddl.github.io/)
-[류시현](https://ryuuhyun.github.io/index.html)
+[류시현](https://rshyun.github.io/)
 
 # 목표
 멀티모달 구현을 하기 위해  모델에게 학습시키는 데이터의  전처리 방법 학습과 학습 및 생성 방식을 설계하는 팀입니다  
