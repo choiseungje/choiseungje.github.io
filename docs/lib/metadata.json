@@ -1,6 +1,6 @@
 {
   "vaultName": "choiseungje.github.io",
-  "lastExport": 1722952383038,
+  "lastExport": 1722952607928,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-light show-inline-title show-ribbon mk-readable-line mk-folder-lines mk-spaces-enabled mk-inline-context-enabled mk-flow-seamless",
   "useCustomHeadContent": false,
@@ -10,59 +10,13 @@
     "전역최적해 팀/2회차.md",
     "전역최적해 팀/3회차.md",
     "전역최적해 팀/4회차.md",
-    "docs/전역최적해-팀/1회차.html",
-    "docs/전역최적해-팀/2회차.html",
-    "docs/전역최적해-팀/3회차.html",
-    "docs/전역최적해-팀/4회차.html",
-    "docs/choiseungje-개인/1회차.html",
-    "docs/choiseungje-개인/2회차.html",
-    "docs/choiseungje-개인/3회차.html",
-    "docs/choiseungje-개인/4회차.html",
-    "docs/choiseungje-개인/index.html",
-    "docs/lib/fonts/2d5198822ab091ce4305.woff2",
-    "docs/lib/fonts/4bb6ac751d1c5478ff3a.woff2",
-    "docs/lib/fonts/05b618077343fbbd92b7.ttf",
-    "docs/lib/fonts/52ac8f3034507f1d9e53.ttf",
-    "docs/lib/fonts/70cc7ff27245e82ad414.ttf",
-    "docs/lib/fonts/94f2f163d4b698242fef.otf",
-    "docs/lib/fonts/535a6cf662596b3bd6a6.woff2",
-    "docs/lib/fonts/72505e6a122c6acd5471.woff2",
-    "docs/lib/fonts/454577c22304619db035.ttf",
-    "docs/lib/fonts/b5f0f109bc88052d4000.woff2",
-    "docs/lib/fonts/c8ba52b05a9ef10f4758.woff2",
-    "docs/lib/fonts/cb10ffd7684cd9836a05.woff2",
-    "docs/lib/fonts/cbe0ae49c52c920fd563.woff2",
-    "docs/lib/html/file-tree.html",
-    "docs/lib/media/1주차_이미지.png",
-    "docs/lib/media/2주차_이미지.png",
-    "docs/lib/media/3주차_이미지.png",
-    "docs/lib/media/3d6c1bdc4d87cde4de67.svg",
-    "docs/lib/media/874d8b8e340f75575caa.svg",
-    "docs/lib/media/favicon.png",
-    "docs/lib/media/Pasted image 20240803210056.png",
-    "docs/lib/media/Pasted image 20240806224046.png",
-    "docs/lib/scripts/graph-data.js",
-    "docs/lib/scripts/graph-render-worker.js",
-    "docs/lib/scripts/graph-view.js",
-    "docs/lib/scripts/graph-wasm.wasm",
-    "docs/lib/scripts/graph-wasm.js",
-    "docs/lib/scripts/minisearch.js",
-    "docs/lib/scripts/pixi.js",
-    "docs/lib/scripts/tinycolor.js",
-    "docs/lib/scripts/webpage.js",
-    "docs/lib/styles/global-variable-styles.css",
-    "docs/lib/styles/main-styles.css",
-    "docs/lib/styles/obsidian.css",
-    "docs/lib/styles/other-plugins.css",
-    "docs/lib/4회차 모델 공부.ipynb",
-    "docs/lib/4회차 실습.ipynb",
-    "docs/lib/metadata.json",
-    "docs/lib/rss.xml",
-    "docs/lib/search-index.json",
-    "docs/docs.md",
-    "docs/index.html",
+    "choiseungje 개인/1회차.md",
+    "choiseungje 개인/2회차.md",
+    "choiseungje 개인/3회차.md",
+    "choiseungje 개인/4회차.md",
+    "choiseungje 개인/index.md",
     "index.md",
-    "lib/media/pasted-image-20240803210056.png",
+    "lib/media/pasted-image-20240806224046.png",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
@@ -95,7 +49,8 @@
     "lib/styles/main-styles.css",
     "lib/media/1주차_이미지.png",
     "lib/media/2주차_이미지.png",
-    "lib/media/3주차_이미지.png"
+    "lib/media/3주차_이미지.png",
+    "lib/media/pasted-image-20240803210056.png"
   ],
   "mainDependencies": [
     "lib/scripts/graph-wasm.wasm",
@@ -131,181 +86,181 @@
   ],
   "fileInfo": {
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1722952383038,
+      "modifiedTime": 1722952607928,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1722952383038,
+      "modifiedTime": 1722952607928,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1722952383038,
+      "modifiedTime": 1722952607928,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1722952383038,
+      "modifiedTime": 1722952607928,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1722952383038,
+      "modifiedTime": 1722952607928,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1722952383038,
+      "modifiedTime": 1722952607928,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1722952383038,
+      "modifiedTime": 1722952607928,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1722952383038,
+      "modifiedTime": 1722952607928,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1722952383038,
+      "modifiedTime": 1722952607928,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1722952383038,
+      "modifiedTime": 1722952607928,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1722952383038,
+      "modifiedTime": 1722952607928,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1722952383038,
+      "modifiedTime": 1722952607928,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1722952383038,
+      "modifiedTime": 1722952607928,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1722952383038,
+      "modifiedTime": 1722952607928,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1722952383038,
+      "modifiedTime": 1722952607928,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/media/3d6c1bdc4d87cde4de67.svg": {
-      "modifiedTime": 1722952383038,
+      "modifiedTime": 1722952607928,
       "sourceSize": 279,
       "exportedPath": "lib/media/3d6c1bdc4d87cde4de67.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 26871,
+      "modifiedTime": 1722952607928,
+      "sourceSize": 4758,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1722952383038,
+      "modifiedTime": 1722952607928,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1722952383038,
+      "modifiedTime": 1722952607928,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1722952383038,
+      "modifiedTime": 1722952607928,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1722952383038,
+      "modifiedTime": 1722952607928,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1722952383038,
+      "modifiedTime": 1722952607928,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1722952383038,
+      "modifiedTime": 1722952607928,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1722952383038,
+      "modifiedTime": 1722952607928,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1722952383038,
+      "modifiedTime": 1722952607928,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 415,
+      "modifiedTime": 1722952607928,
+      "sourceSize": 576,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1722952383038,
+      "modifiedTime": 1722952607928,
       "sourceSize": 130471,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1722952383038,
+      "modifiedTime": 1722952607928,
       "sourceSize": 236,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1722952383038,
+      "modifiedTime": 1722952607928,
       "sourceSize": 23392,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1722952383038,
+      "modifiedTime": 1722952607928,
       "sourceSize": 165390,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
@@ -372,310 +327,42 @@
       "exportedPath": "lib/media/pasted-image-20240803210056.png",
       "dependencies": []
     },
-    "docs/전역최적해-팀/1회차.html": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 19247,
-      "exportedPath": "docs/전역최적해-팀/1회차.html",
+    "choiseungje 개인/1회차.md": {
+      "modifiedTime": 1722952607928,
+      "sourceSize": 1767,
+      "exportedPath": "choiseungje-개인/1회차.html",
       "dependencies": []
     },
-    "docs/전역최적해-팀/2회차.html": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 18643,
-      "exportedPath": "docs/전역최적해-팀/2회차.html",
+    "choiseungje 개인/2회차.md": {
+      "modifiedTime": 1722952607928,
+      "sourceSize": 1728,
+      "exportedPath": "choiseungje-개인/2회차.html",
       "dependencies": []
     },
-    "docs/전역최적해-팀/3회차.html": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 18767,
-      "exportedPath": "docs/전역최적해-팀/3회차.html",
+    "choiseungje 개인/3회차.md": {
+      "modifiedTime": 1722952607928,
+      "sourceSize": 1072,
+      "exportedPath": "choiseungje-개인/3회차.html",
       "dependencies": []
     },
-    "docs/전역최적해-팀/4회차.html": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 18217,
-      "exportedPath": "docs/전역최적해-팀/4회차.html",
+    "choiseungje 개인/4회차.md": {
+      "modifiedTime": 1722952607928,
+      "sourceSize": 1639,
+      "exportedPath": "choiseungje-개인/4회차.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240806224046.png"
+      ]
+    },
+    "choiseungje 개인/index.md": {
+      "modifiedTime": 1722952607928,
+      "sourceSize": 45,
+      "exportedPath": "choiseungje-개인/index.html",
       "dependencies": []
     },
-    "docs/choiseungje-개인/1회차.html": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 24801,
-      "exportedPath": "docs/choiseungje-개인/1회차.html",
-      "dependencies": []
-    },
-    "docs/choiseungje-개인/2회차.html": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 22354,
-      "exportedPath": "docs/choiseungje-개인/2회차.html",
-      "dependencies": []
-    },
-    "docs/choiseungje-개인/3회차.html": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 19111,
-      "exportedPath": "docs/choiseungje-개인/3회차.html",
-      "dependencies": []
-    },
-    "docs/choiseungje-개인/4회차.html": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 20584,
-      "exportedPath": "docs/choiseungje-개인/4회차.html",
-      "dependencies": []
-    },
-    "docs/choiseungje-개인/index.html": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 14359,
-      "exportedPath": "docs/choiseungje-개인/index.html",
-      "dependencies": []
-    },
-    "docs/lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 104332,
-      "exportedPath": "docs/lib/fonts/2d5198822ab091ce4305.woff2",
-      "dependencies": []
-    },
-    "docs/lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 7876,
-      "exportedPath": "docs/lib/fonts/4bb6ac751d1c5478ff3a.woff2",
-      "dependencies": []
-    },
-    "docs/lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 155288,
-      "exportedPath": "docs/lib/fonts/05b618077343fbbd92b7.ttf",
-      "dependencies": []
-    },
-    "docs/lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 191568,
-      "exportedPath": "docs/lib/fonts/52ac8f3034507f1d9e53.ttf",
-      "dependencies": []
-    },
-    "docs/lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 192740,
-      "exportedPath": "docs/lib/fonts/70cc7ff27245e82ad414.ttf",
-      "dependencies": []
-    },
-    "docs/lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 66800,
-      "exportedPath": "docs/lib/fonts/94f2f163d4b698242fef.otf",
-      "dependencies": []
-    },
-    "docs/lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 111708,
-      "exportedPath": "docs/lib/fonts/535a6cf662596b3bd6a6.woff2",
-      "dependencies": []
-    },
-    "docs/lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 104232,
-      "exportedPath": "docs/lib/fonts/72505e6a122c6acd5471.woff2",
-      "dependencies": []
-    },
-    "docs/lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 161376,
-      "exportedPath": "docs/lib/fonts/454577c22304619db035.ttf",
-      "dependencies": []
-    },
-    "docs/lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 105804,
-      "exportedPath": "docs/lib/fonts/b5f0f109bc88052d4000.woff2",
-      "dependencies": []
-    },
-    "docs/lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 98868,
-      "exportedPath": "docs/lib/fonts/c8ba52b05a9ef10f4758.woff2",
-      "dependencies": []
-    },
-    "docs/lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 106876,
-      "exportedPath": "docs/lib/fonts/cb10ffd7684cd9836a05.woff2",
-      "dependencies": []
-    },
-    "docs/lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 106108,
-      "exportedPath": "docs/lib/fonts/cbe0ae49c52c920fd563.woff2",
-      "dependencies": []
-    },
-    "docs/lib/html/file-tree.html": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 4906,
-      "exportedPath": "docs/lib/html/file-tree.html",
-      "dependencies": []
-    },
-    "docs/lib/media/1주차_이미지.png": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 1222408,
-      "exportedPath": "docs/lib/media/1주차_이미지.png",
-      "dependencies": []
-    },
-    "docs/lib/media/2주차_이미지.png": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 724269,
-      "exportedPath": "docs/lib/media/2주차_이미지.png",
-      "dependencies": []
-    },
-    "docs/lib/media/3주차_이미지.png": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 1763261,
-      "exportedPath": "docs/lib/media/3주차_이미지.png",
-      "dependencies": []
-    },
-    "docs/lib/media/3d6c1bdc4d87cde4de67.svg": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 279,
-      "exportedPath": "docs/lib/media/3d6c1bdc4d87cde4de67.svg",
-      "dependencies": []
-    },
-    "docs/lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 317,
-      "exportedPath": "docs/lib/media/874d8b8e340f75575caa.svg",
-      "dependencies": []
-    },
-    "docs/lib/media/favicon.png": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 1105,
-      "exportedPath": "docs/lib/media/favicon.png",
-      "dependencies": []
-    },
-    "docs/lib/media/Pasted image 20240803210056.png": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 1631488,
-      "exportedPath": "docs/lib/media/pasted-image-20240803210056.png",
-      "dependencies": []
-    },
-    "docs/lib/media/Pasted image 20240806224046.png": {
-      "modifiedTime": 1722952383038,
+    "lib/media/pasted-image-20240806224046.png": {
+      "modifiedTime": 1722952607928,
       "sourceSize": 52899,
-      "exportedPath": "docs/lib/media/pasted-image-20240806224046.png",
-      "dependencies": []
-    },
-    "docs/lib/scripts/graph-data.js": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 708,
-      "exportedPath": "docs/lib/scripts/graph-data.js",
-      "dependencies": []
-    },
-    "docs/lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 5179,
-      "exportedPath": "docs/lib/scripts/graph-render-worker.js",
-      "dependencies": []
-    },
-    "docs/lib/scripts/graph-view.js": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 15519,
-      "exportedPath": "docs/lib/scripts/graph-view.js",
-      "dependencies": []
-    },
-    "docs/lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 23377,
-      "exportedPath": "docs/lib/scripts/graph-wasm.wasm",
-      "dependencies": []
-    },
-    "docs/lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 14021,
-      "exportedPath": "docs/lib/scripts/graph-wasm.js",
-      "dependencies": []
-    },
-    "docs/lib/scripts/minisearch.js": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 29422,
-      "exportedPath": "docs/lib/scripts/minisearch.js",
-      "dependencies": []
-    },
-    "docs/lib/scripts/pixi.js": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 449511,
-      "exportedPath": "docs/lib/scripts/pixi.js",
-      "dependencies": []
-    },
-    "docs/lib/scripts/tinycolor.js": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 29832,
-      "exportedPath": "docs/lib/scripts/tinycolor.js",
-      "dependencies": []
-    },
-    "docs/lib/scripts/webpage.js": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 47290,
-      "exportedPath": "docs/lib/scripts/webpage.js",
-      "dependencies": []
-    },
-    "docs/lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 236,
-      "exportedPath": "docs/lib/styles/global-variable-styles.css",
-      "dependencies": []
-    },
-    "docs/lib/styles/main-styles.css": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 23392,
-      "exportedPath": "docs/lib/styles/main-styles.css",
-      "dependencies": []
-    },
-    "docs/lib/styles/obsidian.css": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 130483,
-      "exportedPath": "docs/lib/styles/obsidian.css",
-      "dependencies": []
-    },
-    "docs/lib/styles/other-plugins.css": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 165390,
-      "exportedPath": "docs/lib/styles/other-plugins.css",
-      "dependencies": []
-    },
-    "docs/lib/4회차 모델 공부.ipynb": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 21408,
-      "exportedPath": "docs/lib/4회차-모델-공부.ipynb",
-      "dependencies": []
-    },
-    "docs/lib/4회차 실습.ipynb": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 6648,
-      "exportedPath": "docs/lib/4회차-실습.ipynb",
-      "dependencies": []
-    },
-    "docs/lib/metadata.json": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 12214,
-      "exportedPath": "docs/lib/metadata.json",
-      "dependencies": []
-    },
-    "docs/lib/rss.xml": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 16411,
-      "exportedPath": "docs/lib/rss.xml",
-      "dependencies": []
-    },
-    "docs/lib/search-index.json": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 33726,
-      "exportedPath": "docs/lib/search-index.json",
-      "dependencies": []
-    },
-    "docs/docs.md": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 127,
-      "exportedPath": "docs/docs.html",
-      "dependencies": []
-    },
-    "docs/index.html": {
-      "modifiedTime": 1722952383038,
-      "sourceSize": 26696,
-      "exportedPath": "docs/index.html",
+      "exportedPath": "lib/media/pasted-image-20240806224046.png",
       "dependencies": []
     }
   }
