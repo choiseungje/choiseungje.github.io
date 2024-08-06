@@ -45,11 +45,12 @@
     "Tags",
     "/",
     "//docs/docs/choiseungje-개인",
-    "//docs/docs/lib",
-    "//docs/docs/lib/docs/lib/media",
     "//Tags",
     "//전역최적해 팀",
-    "//choiseungje 개인"
+    "//choiseungje 개인",
+    "//docs",
+    "//docs/docs/lib",
+    "//docs/docs/lib/docs/lib/media"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "choiseungje 개인/3회차.md",
+                "file": "전역최적해 팀/4회차.md",
                 "mode": "source",
                 "source": true
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "choiseungje 개인/3회차.md",
+                "file": "전역최적해 팀/4회차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "choiseungje 개인/3회차.md",
+                "file": "전역최적해 팀/4회차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "choiseungje 개인/3회차.md"
+                "file": "전역최적해 팀/4회차.md"
               }
             }
           }
@@ -171,20 +171,61 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "dd4ec6d060a5d35e",
+  "floating": {
+    "id": "026434bf270b69bd",
+    "type": "floating",
+    "children": [
+      {
+        "id": "ebf405fca87b961f",
+        "type": "window",
+        "children": [
+          {
+            "id": "cdb5efeac99584a7",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "f17db5ebbf18b6c5",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "전역최적해 팀/4회차.md",
+                    "mode": "source",
+                    "source": true
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 317,
+        "y": 316,
+        "width": 902,
+        "height": 500,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "f17db5ebbf18b6c5",
   "lastOpenFiles": [
     "전역최적해 팀/4회차.md",
-    "choiseungje 개인/3회차.md",
-    "choiseungje 개인/2회차.md",
+    "index.md",
     "choiseungje 개인/4회차.md",
+    "전역최적해 팀/3회차.md",
+    "docs/lib/4회차 모델 공부.ipynb",
+    "docs/lib/media/Pasted image 20240806224046.png",
+    "docs/docs.md",
+    "Vault.md",
+    "docs/lib/4회차 실습.ipynb",
+    "choiseungje 개인/3회차.md",
     "choiseungje 개인/1회차.md",
+    "choiseungje 개인/2회차.md",
+    "전역최적해 팀/1회차.md",
     "choiseungje 개인/Untitled.md",
     "docs/lib/media/1주차_이미지.png",
-    "Vault.md",
-    "전역최적해 팀/3회차.md",
     "docs/lib/media/Pasted image 20240803210056.png",
-    "전역최적해 팀/1회차.md",
-    "index.md",
     "전역최적해 팀/2회차.md",
     "docs/vault.html",
     "docs/choiseungje-개인/untitled.html",
@@ -200,7 +241,6 @@
     "전역최적해 팀/전역최적해 팀 소개.md",
     "Pasted image 20240730155302.png",
     "Pasted image 20240730155144.png",
-    "Pasted image 20240730155219.png",
     "docs/choiseungje-개인/3회차.html",
     "docs/전역최적해-팀/3회차.html",
     "choiseungje 개인/index.md",
@@ -210,13 +250,10 @@
     "전역최적해 팀/계획.md",
     "전역최적해 팀/index.md",
     "docs/choiseungje-개인/index.html",
-    "docs/전역최적해-팀/index.html",
-    "docs/index.html",
     "Untit.md",
     "Untitled Kanban.md",
     "Tags/1회차.md",
     "2024-07-05.md",
-    "1회차 .md",
-    "README.md"
+    "1회차 .md"
   ]
 }
