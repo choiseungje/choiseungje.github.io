@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "choiseungje 개인/5회차.md",
+                "file": "전역최적해 팀/5회차.md",
                 "mode": "preview",
                 "source": true
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "choiseungje 개인/5회차.md",
+                "file": "전역최적해 팀/5회차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "choiseungje 개인/5회차.md",
+                "file": "전역최적해 팀/5회차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "choiseungje 개인/5회차.md"
+                "file": "전역최적해 팀/5회차.md"
               }
             }
           }
@@ -173,29 +173,30 @@
   },
   "active": "dd4ec6d060a5d35e",
   "lastOpenFiles": [
+    "choiseungje 개인/5회차.md",
+    "전역최적해 팀/5회차.md",
+    "전역최적해 팀/4회차.md",
+    "전역최적해 팀/2회차.md",
+    "choiseungje 개인/1회차.md",
+    "choiseungje 개인/2회차.md",
+    "choiseungje 개인/3회차.md",
+    "choiseungje 개인/4회차.md",
+    "choiseungje 개인/index.md",
+    "전역최적해 팀/1회차.md",
+    "전역최적해 팀/3회차.md",
+    "전역최적해 팀/Untitled.md",
     "index.md",
     "docs/choiseungje-개인/5회차.html",
     "docs/전역최적해-팀/untitled.html",
     "docs/전역최적해-팀/5회차.html",
-    "choiseungje 개인/5회차.md",
-    "전역최적해 팀/5회차.md",
-    "전역최적해 팀/2회차.md",
     "docs/choiseungje-개인/5회차.md",
-    "전역최적해 팀/1회차.md",
-    "전역최적해 팀/3회차.md",
-    "전역최적해 팀/4회차.md",
     "docs/choiseungje-개인/choiseungje-개인.md",
     "Vault.md",
     "docs/lib/media/Pasted image 20240808135001.png",
-    "전역최적해 팀/Untitled.md",
-    "choiseungje 개인/3회차.md",
-    "choiseungje 개인/4회차.md",
     "docs/lib/4회차 모델 공부.ipynb",
     "docs/lib/media/Pasted image 20240806224046.png",
     "docs/docs.md",
     "docs/lib/4회차 실습.ipynb",
-    "choiseungje 개인/1회차.md",
-    "choiseungje 개인/2회차.md",
     "docs/lib/media/1주차_이미지.png",
     "docs/lib/media/Pasted image 20240803210056.png",
     "docs/vault.html",
@@ -213,7 +214,6 @@
     "Pasted image 20240730155302.png",
     "docs/choiseungje-개인/3회차.html",
     "docs/전역최적해-팀/3회차.html",
-    "choiseungje 개인/index.md",
     "docs/choiseungje-개인/2회차.html",
     "전역최적해 팀/계획.md",
     "전역최적해 팀/index.md",
