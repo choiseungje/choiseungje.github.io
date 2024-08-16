@@ -16,8 +16,8 @@ sticker: ""
 ### [2회차](https://choiseungje.github.io/%EC%A0%84%EC%97%AD%EC%B5%9C%EC%A0%81%ED%95%B4-%ED%8C%80/2%ED%9A%8C%EC%B0%A8.html): 2024.07.27(토요일) 14:00 ~ 17:00
 ### [3회차](https://choiseungje.github.io/%EC%A0%84%EC%97%AD%EC%B5%9C%EC%A0%81%ED%95%B4-%ED%8C%80/3%ED%9A%8C%EC%B0%A8.html): 2024.07.29(월요일) 14:00 ~ 17:00
 ### [4회차](https://choiseungje.github.io/%EC%A0%84%EC%97%AD%EC%B5%9C%EC%A0%81%ED%95%B4-%ED%8C%80/4%ED%9A%8C%EC%B0%A8.html): 2024.07.31(수요일) 14:00 ~ 17:00
-### 5회차: 2024.08.05(월요일) 14:00 ~ 17:00
-### 6회차: 2024.08.08(목요일) 14:00 ~ 17:00
+### [5회차](https://choiseungje.github.io/%EC%A0%84%EC%97%AD%EC%B5%9C%EC%A0%81%ED%95%B4-%ED%8C%80/5%ED%9A%8C%EC%B0%A8.html): 2024.08.05(월요일) 14:00 ~ 17:00
+### [6회차](https://choiseungje.github.io/%EC%A0%84%EC%97%AD%EC%B5%9C%EC%A0%81%ED%95%B4-%ED%8C%80/6%ED%9A%8C%EC%B0%A8.html): 2024.08.08(목요일) 14:00 ~ 17:00
 
 # 회고
 
