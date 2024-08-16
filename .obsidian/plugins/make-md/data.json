@@ -44,11 +44,11 @@
     "spaces://$tags",
     "Tags",
     "/",
-    "//docs/docs/choiseungje-개인",
     "//Tags",
     "//choiseungje 개인",
     "//docs/docs/lib",
     "//docs/docs/lib/docs/lib/media",
+    "//docs",
     "//전역최적해 팀"
   ],
   "expandFolderOnClick": true,
