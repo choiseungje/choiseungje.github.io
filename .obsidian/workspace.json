@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전역최적해 팀/4회차.md",
+                "file": "choiseungje 개인/6회차.md",
                 "mode": "preview",
                 "source": true
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전역최적해 팀/4회차.md",
+                "file": "choiseungje 개인/6회차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전역최적해 팀/4회차.md",
+                "file": "choiseungje 개인/6회차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전역최적해 팀/4회차.md"
+                "file": "choiseungje 개인/6회차.md"
               }
             }
           }
@@ -171,52 +171,17 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "floating": {
-    "id": "c11c20ed097c3226",
-    "type": "floating",
-    "children": [
-      {
-        "id": "e8432d8f6fc72935",
-        "type": "window",
-        "children": [
-          {
-            "id": "b952b1bdc24d108b",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "c70eb56893e0232f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "전역최적해 팀/5회차.md",
-                    "mode": "source",
-                    "source": true
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 317,
-        "y": 316,
-        "width": 902,
-        "height": 500,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "c70eb56893e0232f",
+  "active": "dd4ec6d060a5d35e",
   "lastOpenFiles": [
+    "choiseungje 개인/6회차.md",
+    "전역최적해 팀/6회차.md",
+    "index.md",
+    "전역최적해 팀/5회차.md",
     "전역최적해 팀/4회차.md",
     "docs/lib/media/4주차.png",
-    "전역최적해 팀/5회차.md",
     "choiseungje 개인/5회차.md",
     "choiseungje 개인/2회차.md",
     "docs/lib/media/5주차.png",
-    "전역최적해 팀/6회차.md",
     "Vault.md",
     "docs/lib/media/6주차.png",
     "docs/lib/media/3d6c1bdc4d87cde4de67.svg",
@@ -226,11 +191,9 @@
     "docs/lib/media/favicon.png",
     "docs/lib/media/2주차_이미지.png",
     "docs/lib/media/1주차_이미지.png",
-    "index.md",
     "전역최적해 팀/3회차.md",
     "전역최적해 팀/1회차.md",
     "전역최적해 팀/2회차.md",
-    "choiseungje 개인/6회차.md",
     "choiseungje 개인/3회차.md",
     "choiseungje 개인/4회차.md",
     "choiseungje 개인/1회차.md",
