@@ -48,7 +48,10 @@
     "//choiseungje 개인",
     "//docs/docs/lib",
     "//docs/docs/lib/docs/lib/media",
-    "//전역최적해 팀"
+    "//전역최적해 팀",
+    "//paper",
+    "//paper/paper/Paper Review Template 1.file",
+    "//templates"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
