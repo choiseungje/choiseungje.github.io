@@ -1,4 +1,309 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[choiseungje.github.io]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>choiseungje.github.io</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 23 Aug 2024 07:23:25 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 23 Aug 2024 07:23:24 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA["전역최적해" 팀 소개]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[choiseungje.github.io]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>choiseungje.github.io</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 03 Mar 2025 00:55:09 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 03 Mar 2025 00:55:08 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[<font color="#31859b">Summary</font>]]></title><description><![CDATA[ 
+ <br><br><br>Autellix는 LLM 기반 에이전트 프로그램의 성능을 최적화하는 서빙 엔진으로, 프로그램 수준의 스케줄링 및 로드 밸런싱을 통해 처리량을 최대 15배 향상시킨다. [Abstract, p.1]
+<br><br>기존 LLM 서빙 시스템은 개별 요청 단위의 최적화에 집중했으나, Autellix는 프로그램 전체 실행 시간을 최소화하는 새로운 스케줄링 기법을 제안한다. [Section 1, p.2]
+<br>단일 및 다중 스레드 프로그램을 위한 스케줄링 알고리즘(PLAS, ATLAS)을 개발하여, 대기 시간과 실행 시간을 최소화하였다. [Section 2, p.4]
+<br>실험을 통해 Autellix는 vLLM 대비 프로그램 처리량을 4~15배 증가시키며, 다중 엔진 환경에서의 데이터 로컬리티를 고려한 로드 밸런싱 기법이 효과적임을 입증하였다. [Section 6, p.12]
+<br><br>기존 LLM 서빙 시스템(vLLM 등)은 개별 LLM 호출을 최적화하지만, 프로그램 수준의 종합적인 최적화는 수행하지 못한다. [Section 1, p.2]
+<br>Autellix는 프로그램 내 호출 의존성을 고려하여, 대기 시간을 줄이고 실행 성능을 개선하는 새로운 스케줄링 기법(PLAS, ATLAS)을 도입한다. [Section 2, p.4]
+<br>MLFQ 기반의 다중 큐 시스템을 활용하여, 장기간 대기하는 프로그램이 발생하지 않도록 설계되었다. [Section 4, p.7]
+<br>데이터 로컬리티를 고려한 로드 밸런싱 기법을 통해, 다중 엔진 환경에서도 성능을 최적화한다. [Section 5, p.10]
+<br>실험 결과, Autellix는 기존 vLLM 대비 4~15배 높은 처리량을 기록하며, 복잡한 에이전트 프로그램의 실행 성능을 획기적으로 향상시킨다. [Section 6, p.12]
+<br><br><br>
+기존 LLM 서빙 시스템은 개별 호출을 최적화하는 데 집중했지만, 프로그램 내 호출 간 의존성을 고려하지 않아 최적화 기회를 놓치고 있다. 이러한 한계를 극복하기 위해 Autellix는 프로그램 전체 실행 시간을 최소화하는 새로운 서빙 엔진을 제안한다. [p.1, Abstract]
+<br>
+<br>기존 시스템(vLLM 등)은 개별 요청 단위의 최적화에 초점을 맞추지만, 이는 긴 프로그램의 실행을 지연시키는 Head-of-Line (HoL) Blocking 문제를 발생시킴. [Section 1, p.2]
+<br>프로그램 단위의 최적화를 통해 전체 대기 시간을 줄이는 방식이 필요함. [Section 1, p.2]
+<br><br>
+<br>기존 LLM 서빙 엔진(vLLM)은 개별 LLM 요청을 최적화하는 방식으로, 키-값(KV) 캐시 효율성 개선과 요청 스케줄링 알고리즘을 적용했으나, 프로그램 단위의 최적화는 고려되지 않음. [Section 2, p.3]
+<br>프로그램 수준의 최적화는 LLM 호출 간 의존성을 고려해야 하며, 이를 통해 전체 실행 시간을 줄이는 것이 가능함. [Section 2, p.4]
+<br><br>
+<br>Head-of-Line (HoL) Blocking: 긴 LLM 호출이 짧은 호출을 지연시키는 문제. [Section 3, p.6]
+<br>Program-Level Blocking: 기존 스케줄러는 개별 요청의 우선순위를 고려하지만, 같은 프로그램 내에서 호출 간 의존성을 고려하지 않아 프로그램 실행이 지연됨. [Section 3, p.7]
+<br>Load Balancing &amp; Data Locality: 다중 엔진 환경에서 요청을 무작위로 분배할 경우 KV 캐시 미스가 증가하여 성능 저하 발생. [Section 5, p.10]
+<br><br><br>
+<br>PLAS (Program-Level Attained Service): 단일 스레드 프로그램을 위한 스케줄링 기법으로, 전체 실행 시간을 고려하여 우선순위를 조정함. [Section 4, p.8]
+<br>ATLAS (Adaptive Thread-Level Attained Service): 다중 스레드 프로그램의 경우, 크리티컬 패스를 분석하여 최적의 우선순위를 결정함. [Section 4, p.9]
+<br><br>
+<br>다단계 우선순위 큐(Multilevel Feedback Queue, MLFQ) 적용하여 대기 시간 최소화. [Section 4, p.10]<br>
+대기 시간 및 처리 시간을 고려하여 우선 순위를 매김
+<br>장기간 대기한 프로그램의 우선순위를 조정하여 Starvation 문제 방지. [Section 4, p.11]
+<br><br>
+<br>짧은 요청(≤2048 토큰)은 가장 부하가 적은 엔진으로 분산.
+<br>긴 요청은 같은 프로그램의 KV 캐시를 공유할 수 있도록 특정 엔진에 고정하여 배정. [Section 5, p.12]
+<br><br>
+<br>Autellix는 vLLM 대비 4~15배 높은 처리량을 기록하며, 응답 속도를 단축함. [Section 6, p.13]
+<br>프로그램별 처리량 증가 및 대기 시간 단축 효과가 입증됨. [Section 6, p.15]
+<br>다중 엔진 환경에서 데이터 로컬리티 기반 로드 밸런싱을 적용한 결과, KV 캐시 미스가 감소하여 성능이 향상됨. [Section 6, p.17]
+]]></description><link>paper\autellix-review.html</link><guid isPermaLink="false">paper/Autellix review.md</guid><pubDate>Sun, 02 Mar 2025 23:08:34 GMT</pubDate></item><item><title><![CDATA[<font color="#31859b">Summary</font>]]></title><description><![CDATA[ 
+ <br><br><br>HyperFL은 하이퍼네트워크를 활용하여 공유된 모델 파라미터와 로컬 데이터 간의 직접적인 연결을 차단함으로써 Gradient Inversion Attack(GIA)으로부터 보호하는 새로운 연합 학습(Federated Learning, FL) 프레임워크를 제안한다[5, p.1, Abstract].
+<br><br>기존 FL 모델에서는 모델 그래디언트 공유가 개인정보 노출을 유발할 수 있으며, 기존의 방어 기법(SMC, HE, DP 등)은 높은 연산 비용과 성능 저하를 초래한다[5, p.2, Introduction].
+<br>HyperFL은 하이퍼네트워크를 활용하여 로컬 모델의 파라미터를 생성하고, 서버에는 하이퍼네트워크의 파라미터만 업로드함으로써 GIA 공격을 방어한다[5, p.4, Methodology].
+<br>실험 결과, HyperFL은 기존 방법들과 비교하여 개인정보 보호 성능이 우수하며, 유사한 학습 성능과 빠른 수렴 속도를 유지한다[5, p.13, Experiments].
+<br><br>기존 FL 환경에서는 Gradient Inversion Attack(GIA)을 통해 클라이언트의 원본 데이터를 복원할 수 있어 보안 위협이 존재한다[5, p.2, Introduction].
+<br>기존 보안 기법(SMC, HE, DP)은 높은 연산 비용과 성능 저하를 초래하는 한계가 있다[5, p.3, Introduction].
+<br>HyperFL은 하이퍼네트워크를 활용하여 로컬 모델의 파라미터를 생성하고, 서버에는 하이퍼네트워크의 파라미터만 업로드하여 개인정보 보호를 강화한다[5, p.4, Methodology].
+<br>HyperFL은 기본적인 모델 구조(Main Configuration)와 대형 사전 학습 모델을 활용하는 HyperFL-LPM 두 가지 변형을 제안한다[5, p.6, Methodology].
+<br>실험을 통해 HyperFL이 기존 FL 프레임워크 대비 개인정보 보호 성능이 뛰어나면서도, 학습 성능 저하 없이 FedAvg와 유사한 수렴 속도를 유지함을 입증하였다[5, p.13, Experiments].
+<br><br><br>
+기존의 FL 모델에서는 공유된 모델 그래디언트가 GIA 공격에 의해 클라이언트의 데이터를 복원하는 취약점이 존재한다. 이를 해결하기 위해 기존의 방어 기법(SMC, HE, DP 등)이 사용되지만, 이들은 높은 연산 비용과 성능 저하를 초래한다. 본 논문에서는 하이퍼네트워크를 활용하여 공유된 파라미터와 로컬 데이터 간의 직접적인 연결을 차단하는 새로운 연합 학습 프레임워크인 HyperFL을 제안한다[Federated Learning (FL) aims to protect data privacy by enabling clients to collectively train machine learning models without sharing their raw data. However, recent studies demonstrate that information exchanged during FL is subject to Gradient Inversion Attacks (GIA) ... Despite their ability to protect data privacy, these approaches inherently involve substantial privacy-utility trade-offs."][5, p.1, Abstract]
+<br><br>
+<br>FL 환경에서는 클라이언트들이 로컬 데이터를 공유하지 않고 협력하여 모델을 학습한다[5, p.2, Introduction].
+<br>기존 연구들은 FL에서 공유되는 그래디언트를 분석하여 원본 데이터를 복원할 수 있는 Gradient Inversion Attack(GIA)의 가능성을 입증하였다[5, p.2, Introduction].
+<br>현재의 주요 방어 기법으로는 Secure Multi-party Computing(SMC), Homomorphic Encryption(HE), Differential Privacy(DP) 등이 있지만, 이들은 높은 계산 비용과 성능 저하를 초래한다[5, p.3, Introduction].
+
+["Despite the privacy-preserving capability introduced by FL, recent works have revealed that FL models are vulnerable to Gradient Inversion Attacks (GIA)... To remedy this issue, various defense mechanisms have been integrated into FL, including Secure Multi-party Computing (SMC), Homomorphic Encryption (HE), and Differential Privacy (DP). However, such mechanisms inherently involve substantial privacy-utility trade-offs."][5, p.3, Introduction]
+
+
+<br><br>
+<br>공격자는 클라이언트가 공유한 그래디언트를 분석하여 원본 데이터를 역추적할 수 있다[5, p.3, Introduction].
+<br>기존 방어 기법들은 이를 완벽하게 차단하지 못하며, 높은 연산 비용과 성능 저하를 동반한다[5, p.3, Introduction].
+<br>따라서 새로운 FL 프레임워크가 필요하며, 공유된 파라미터와 로컬 데이터 간의 직접적인 연결을 차단하는 방법이 요구된다[5, p.3, Introduction].
+<br><br><br>
+<br>하이퍼네트워크(Hypernetwork)를 활용한 모델 가중치 생성
+
+<br>HyperFL에서는 하이퍼네트워크( h )가 클라이언트 임베딩( vi​ )을 입력으로 받아 모델 가중치( θi​ )를 생성함.
+<br>하이퍼네트워크는 클라이언트별 맞춤형 가중치를 생성하여 연합 학습의 개인정보 보호를 강화함.
+
+["Our key idea is to make the local model parameters be generated from a hypernetwork using client embeddings.", Section 2.1, p.4]
+
+
+
+
+<br>클라이언트 임베딩(vi)을 기반으로 최적의 가중치 생성
+
+<br>하이퍼네트워크는 각 클라이언트별 고유한 임베딩( viv_ivi​ )을 입력으로 받아 가중치를 생성함.
+<br>클라이언트 임베딩은 학습 가능한 벡터(Trainable Vector)로, 학습이 진행됨에 따라 점점 최적화됨.
+
+["The hidden state is now equivalent to a trainable client embedding vector viv_ivi​, which is used to generate model parameters.", Section 2.1, p.5]
+
+
+
+
+<br><br>
+<br>**Main Configuration HyperFL
+
+<br>작은 규모의 모델을 대상으로, 하이퍼네트워크가 전체 특징 추출기(Feature Extractor)의 가중치를 생성하는 방식.
+<br>특징 추출기와 분류기를 분리하고, 특징 추출기만 하이퍼네트워크를 통해 생성하여 공유됨.
+<br>클라이언트는 하이퍼네트워크의 파라미터( ϕi\phi_iϕi​ )만 공유하며, 분류기는 로컬에서 유지하여 개인정보 보호를 강화함.
+
+["We decompose the local model into a shared feature extractor and a private classifier, where only the feature extractor is generated by the hypernetwork.", Section 2.3, p.6]
+
+
+
+
+<br>**HyperFL-LPM (Large Pre-trained Models)
+
+<br>사전 학습된 대형 모델(ResNet, ViT 등)을 고정된 특징 추출기로 사용하는 방식.
+<br>하이퍼네트워크는 어댑터(Adapter) 파라미터만 생성하여 모델을 조정함.
+<br>즉, 사전 학습된 모델 전체를 조정하는 것이 아니라, 소량의 어댑터만 학습하여 효율성을 극대화.
+
+["Instead of generating the entire feature extractor, the hypernetwork generates only adapter parameters to fine-tune the pre-trained models.", Section 2.4, p.7]
+
+
+
+
+<br><br>
+<br>Mini-batch TTT는 batch size bbb만큼의 토큰을 모아서 한 번에 그래디언트 계산 가능.
+<br>각 미니배치 내의 그래디언트 계산이 독립적이므로 병렬 처리 가능.
+<br>개인정보 보호 강화
+]]></description><link>paper\hyperfl-review.html</link><guid isPermaLink="false">paper/HyperFL review.md</guid><pubDate>Sun, 02 Mar 2025 23:45:07 GMT</pubDate></item><item><title><![CDATA[<font color="#31859b">Summary</font>]]></title><description><![CDATA[ 
+ <br><br><br>MemGPT는 LLM의 제한된 컨텍스트 윈도우를 운영 체제(OS)의 가상 메모리 관리 기법을 활용하여 확장하는 새로운 접근 방식을 제안 [Abstract, p.1].
+
+<br><br>기존 LLM은 컨텍스트 윈도우 크기가 제한적이며, 이를 확장하는 것은 연산 비용 증가 문제를 초래함 [Introduction, p.2].
+<br>MemGPT는 OS의 가상 메모리 페이징 개념을 차용하여 계층적 메모리 시스템을 구축하고, LLM이 자동으로 메모리를 관리하도록 설계됨 [Section 2, p.4].
+<br>MemGPT는 다중 문서 분석과 다중 세션 챗봇에서 기존 LLM보다 높은 성능을 보이며, 장기적인 문맥 유지 및 효율적인 정보 검색을 가능하게 함 [Experiments, p.12].
+
+<br><br>LLM은 제한된 컨텍스트 윈도우로 인해 긴 대화나 문서 분석에서 성능이 저하되는 문제가 있음 [Introduction, p.2].
+<br>기존 방식은 컨텍스트 길이를 단순히 확장하거나 요약하는데, 이는 연산 비용 증가 및 정보 손실 문제를 초래함 [Background, p.3].
+<br>MemGPT는 가상 메모리 페이징 개념을 활용하여 LLM이 자동으로 컨텍스트를 유지하고, 필요할 때만 관련 데이터를 불러올 수 있도록 함 [Section 2.1, p.5].
+<br>다중 세션 대화 및 장기적인 문서 분석에서 MemGPT가 기존 방법보다 높은 정확도를 보이며, 정보 유지 및 검색 능력이 향상됨 [Experiments, p.13].
+<br>실험 결과, MemGPT는 GPT-4 기반 모델과 결합하여 기존 GPT-4 대비 성능을 크게 향상시킴 [Experiments, p.17].
+<br><br><br>
+기존 LLM은 컨텍스트 윈도우가 제한적이어서 장기적인 문서 분석과 다중 세션 대화에서 성능이 저하됨 ["Large language models (LLMs) have revolutionized AI, but are constrained by limited context windows, hindering their utility in tasks like extended conversations and document analysis.", Abstract, p.1].
+<br>
+<br>Transformer 기반 모델은 자기 주의(Self-Attention) 메커니즘으로 인해 컨텍스트 길이가 길어질수록 연산량이 기하급수적으로 증가함 ["Directly extending the context length of transformers incurs a quadratic increase in computational time and memory cost due to the transformer architecture’s self-attention mechanism.", Section 1, p.2].
+<br>기존 연구들은 컨텍스트 윈도우를 확장하는 방향으로 문제를 해결하려 했으나, 연산 비용 문제와 컨텍스트 활용의 한계로 인해 실용적이지 않음 ["Recent research shows that long-context models struggle to utilize additional context effectively.", Section 1, p.2].
+<br>이에 따라 OS의 가상 메모리 페이징 개념을 차용하여, LLM이 효과적으로 컨텍스트를 관리할 수 있는 새로운 접근 방식이 필요함 ["Our approach borrows from the idea of virtual memory paging that was developed to enable applications to work on datasets that far exceed the available memory.", Section 1, p.3].
+<br><br>
+<br>기존 LLM은 컨텍스트 윈도우 내에서만 정보를 유지할 수 있으며, 이를 넘어서면 이전 데이터를 잃어버리게 됨 ["Despite these advances, the limited fixed-length context windows used by LLMs significantly hinders their applicability to long conversations or reasoning about long documents.", Section 1, p.2].
+<br>Transformer 모델에서 컨텍스트 윈도우를 확장하면 연산 비용이 기하급수적으로 증가하여 실용성이 떨어짐 ["Scaling up context length results in quadratic memory and computational costs, making it impractical for real-world applications.", Section 1, p.3].
+<br>OS의 가상 메모리 관리 기법(페이징, 계층적 메모리 시스템)은 제한된 물리적 메모리 내에서 큰 데이터 세트를 다룰 수 있도록 설계되었으며, 이를 LLM에 적용할 수 있음 ["We treat context windows as a constrained memory resource, and design a memory hierarchy for LLMs analogous to memory tiers used in traditional OSes.", Section 2, p.4].
+<br><br>
+<br>제한된 컨텍스트 윈도우 문제: 기존 LLM은 긴 문서나 대화를 처리할 때 과거 정보를 잃어버리는 한계가 있음 [Section 1, p.2].
+<br>연산 비용 증가 문제: 컨텍스트 길이를 직접 늘리면 연산량이 급증하여 실용성이 떨어짐 [Section 1, p.3].
+<br>장기적인 정보 유지 문제: 다중 세션 대화에서 일관성을 유지하는 것이 어렵고, 문서 분석에서 관련 정보를 연결하는 것이 어려움 [Section 3.1, p.13]
+<br><br><br>
+<br>
+OS의 가상 메모리 페이징 개념을 활용하여, LLM이 자동으로 컨텍스트를 유지하고 필요한 정보를 불러오도록 설계 ["Using function calls, LLM agents can read and write to external data sources, modify their own context, and choose when to return responses to the user.", Section 2.1, p.5].
+
+<br>
+메모리 계층 구조를 활용한 효율적인 컨텍스트 관리
+
+<br>Main Context (단기 메모리): LLM의 컨텍스트 윈도우 내에서 직접 접근 가능한 데이터
+<br>Recall Storage (중기 메모리): 최근 사용한 데이터를 저장하는 계층, 자주 참조되는 정보 보관
+<br>Archival Storage(장기 메모리): 장기간 유지해야 하는 데이터 저장소<br>
+["MemGPT enables the LLM to retrieve relevant historical data missing from what is placed in-context, and also evict less relevant data from context into external storage systems.", Section 2.2, p.6]
+
+
+<br><br>
+<br>LLM이 자체적으로 컨텍스트를 관리할 수 있도록 함수 호출 기능을 도입하여, 컨텍스트 내부 데이터를 업데이트하고, 필요할 때 외부 저장소에서 데이터를 검색할 수 있도록 설계 ["Memory edits and retrieval are entirely self-directed: MemGPT autonomously updates and searches through its own memory based on the current context.", Section 2.3, p.7].
+<br><br>
+<br>긴 문서를 분석할 때, 관련 정보를 연결하여 효율적으로 검색할 수 있도록 설계 ["MemGPT actively retrieves documents from its archival storage, allowing it to scale to larger effective context lengths.", Section 3.2, p.16].<br>
+
+<br>다중 세션 챗봇에서 사용자와의 대화를 장기적으로 유지하고, 이전 대화를 기억할 수 있도록 구현 ["MemGPT enables maintaining long-term memory, consistency, and evolvability over extended dialogues.", Section 3.1, p.14].
+<br><br>
+<br>Mini-Batch 기반 처리 최적화
+
+<br>긴 문장을 처리할 때 Batch Processing 기법을 활용하여 연산량을 줄이고 속도를 향상.
+<br>LLM이 처리할 데이터 블록을 미리 분할하여 병렬로 연산을 수행하도록 구성.
+
+
+<br>메모리 효율적인 그래디언트 체크포인팅 (Gradient Checkpointing)
+
+<br>Transformer 모델의 학습 과정에서, 중간 연산 결과를 저장하지 않고 필요할 때 다시 계산하는 방식으로 메모리 사용량을 최적화
+<br>특히 Recall Storage 및 Archival Storage에서 필요한 데이터만 불러오도록 구성하여, GPU 메모리 사용량을 줄이고 모델의 확장성을 극대화.
+
+
+]]></description><link>paper\memgpt-towards-llms-as-operating-systems-review.html</link><guid isPermaLink="false">paper/MemGPT- Towards LLMs as Operating Systems review.md</guid><pubDate>Sun, 02 Mar 2025 23:08:27 GMT</pubDate></item><item><title><![CDATA[paper]]></title><description><![CDATA[ 
+ ]]></description><link>paper\paper.html</link><guid isPermaLink="false">paper/paper.md</guid><pubDate>Sun, 02 Mar 2025 17:31:51 GMT</pubDate></item><item><title><![CDATA[<font color="#31859b">Summary</font>]]></title><description><![CDATA[ 
+ <br><br><br>
+Titans은 Transformer의 단기 기억과 신경망 기반 장기 기억을 결합하여, 2M 이상의 문맥 창을 효율적으로 처리하는 새로운 아키텍처를 제안[12:Abstract]
+
+<br><br>
+Titans은 Transformer의 단기 기억(attention)과 신경망 기반 장기 기억(neural memory)을 결합하여, 긴 문맥에서 학습 및 추론 성능을 향상시키는 모델이다[12:Abstract, §1].
+
+<br>
+기존 Transformer는 높은 계산량 문제를 해결하지 못했으며, 선형 순환 모델은 정보 손실이 심각했다[12:§1].
+
+<br>
+Titans은 이러한 한계를 극복하고, 언어 모델링, 상식 추론, 유전자 분석, 시계열 예측 등 다양한 작업에서 우수한 성능을 보인다[12:§1, §3].
+
+<br><br>
+Transformer는 제한된 문맥 창 내에서만 작동하여 장기 의존성을 학습하는 데 한계가 있다[12:§1].
+
+<br>
+기존 선형 순환 모델은 정보를 압축하여 저장하지만, 표현력이 부족하고 장기 기억을 효과적으로 활용하지 못한다[12:§2].
+
+<br>
+Titans은 신경망 기반의 장기 기억 모듈을 도입하여 Transformer와 결합함으로써 이러한 문제를 해결한다[12:§3].
+
+<br>
+효율적인 학습과 확장 가능한 구조를 통해 2M 이상의 문맥 창을 처리할 수 있으며, 기존 모델보다 높은 정확도를 달성한다[12:§5].
+
+<br>
+자연어 처리, 시계열 분석, 유전자 분석 등 다양한 분야에서 활용 가능성을 제시한다[12:§6].
+
+<br><br><br>
+기존 순환 신경망(RNN)은 선형 복잡도(linear complexity)를 가지지만, 메모리 업데이트 방식의 한계로 인해 긴 컨텍스트에서 정보 손실이 발생하며 성능이 제한적이다..["While both linear Transformers and linear RNNs (including state space models) compress the information in memory update step, the critical difference lies in the structure of the memory."][12:Section 2, p.4]
+<br>
+<br>
+Self-attention은 긴 컨텍스트에서 강력한 성능을 보이지만, 이차 복잡도(quadratic complexity, O(n²))로 인해 확장성(scalability)이 제한된다.["This accurate modeling of dependencies, however, comes with a quadratic cost, limiting the model to a fixed-length context."][12:Abstract]
+
+<br>
+장기 문맥(long-context)을 효과적으로 활용하면서도 효율적인 연산이 가능한 새로운 시퀀스 모델링 기법이 필요하다.["To remain both efficient and expressive in long context, we need a better compression heuristic."][12:Section 2, p.5]]
+
+<br><br>
+<br>
+선형 Transformer가 제안되었지만, 정보 압축 과정에서 중요한 내용을 손실하는 문제가 있다
+
+<br>
+Transformer는 attention 기반으로 작동하며, 고정된 길이의 문맥 창 내에서 단기 연관성을 학습하는 구조를 가지고 있지만 문맥 창이 길어질수록 계산량이 증가하여 확장성이 제한된다.[12:§1].
+
+<br><br>
+<br>
+장기 기억을 포함하는 새로운 구조가 필요하다.[12:§1].
+
+<br>
+기존 Transformer는 문맥 창 크기에 따라 계산 비용이 기하급수적으로 증가한다[12:§2, §3].
+
+<br><br><br>
+<br>Titans은 신경망 기반 장기 기억을 효과적으로 통합하기 위해 세 가지 주요 변형(variants)을 제안
+<br>&nbsp; &nbsp; 1. Memory as Context (MAC) – 기억을 문맥의 일부로 활용<br>&nbsp; &nbsp; &nbsp; &nbsp; - 기존 Transformer의 문맥(context)에 장기 기억을 추가하여, 과거 데이터를 직접 활용할 수 있도록 함.<br>&nbsp; &nbsp; &nbsp; &nbsp; - 각 시퀀스가 처리될 때, 장기 기억에서 가장 관련성이 높은 정보를 찾아 문맥으로 삽입하는 방식.["Attention by having both historical and current context, has the ability to decide whether given the current data, the long-term memory information is needed."][12:§4.1, p.10]<br>&nbsp; &nbsp; 2. Memory as Gating (MAG) – 기억을 게이트(gate)로 조정<br>&nbsp; &nbsp; &nbsp; &nbsp; - 기존 Transformer의 Self-attention과 장기 기억을 병렬적으로 학습한 후, 게이트(gate) 메커니즘을 적용하여 두 정보를 결합하는 방식[12:§4.2].<br>&nbsp; &nbsp; &nbsp; &nbsp; - 어떤 정보가 더 중요한지 자동으로 조정하는 능력을 갖추며, 주어진 입력에 따라 장기 기억을 다르게 활용함["Sliding window attention is acting as a precise short-term memory, while the neural memory module is acting as a fading memory for the model."_][12:§4.2].<br>&nbsp; &nbsp; &nbsp; &nbsp; - g(Yshort​,Ylong​)=σ(Wg​Yshort​+bg​)⊙Ylong​+(1−σ(Wg​Yshort​+bg​))⊙Yshort​<br>&nbsp; &nbsp; 3. Memory as a Layer (MAL) – 기억을 독립적인 계층(layer)으로 추가<br>&nbsp; &nbsp; &nbsp; &nbsp; - Transformer 구조에 별도의 장기 기억 레이어를 추가하여, 기존 레이어와 독립적으로 학습하는 방식["We then use this historical information along with our persistent memory parameters as the input sequence to the attention module."][12:§4.3]<br>
+St​=∣∇ℓ(Mt−1​;xt​)∣
+<br><br>
+<br>Titans은 신경망 기반 장기 기억 모듈(Neural Memory Module)을 추가하여, 과거 데이터를 저장하고 적절한 시점에 이를 참조할 수 있도록 한다[12:§3].
+<br>&nbsp; &nbsp; 1. 서프라이즈 메트릭(Surprise Metric) 활용<br>&nbsp; &nbsp; &nbsp; &nbsp; - 이 메트릭은 새로운 입력 데이터가 기존 메모리와 얼마나 다른지를 평가하여, 예상 밖의 정보(Unexpected Information)를 더 잘 기억하도록 설계[To this end, we measure the surprise of an input with the gradient of the neural network with respect to the input in associative memory loss."][12:§3.1, p.7]<br>&nbsp; &nbsp; &nbsp; &nbsp; - 서프라이즈 메트릭(Surprise Metric) = |∇ℓ(𝑀ₜ₋₁, 𝑥ₜ)| (입력 데이터 𝑥ₜ, 기존 기억 상태 𝑀ₜ₋₁)<br>&nbsp; &nbsp; 2. 적응형 망각 메커니즘 (Adaptive Forgetting Mechanism)<br>&nbsp; &nbsp; &nbsp; &nbsp; - 이 기법은 기억 크기(memory size)와 데이터의 중요도(surprise score)를 기반으로 어떤 정보를 유지하고 어떤 정보를 제거할지 결정["To better handle the limited memory, we present a decaying mechanism that considers the proportion of memory size and the amount of data surprise, resulting in better memory management."_][12:§3.1, p.8]<br><br>
+<br>장기 기억(Neural Memory) 활용
+<br>&nbsp; &nbsp; - 더 긴 문맥을 처리<br>&nbsp; &nbsp; - 장기적인 의존성을 학습<br>
+<br>효율적인 계산 자원 사용
+<br>&nbsp; &nbsp; - &nbsp;Neural Memory를 활용함으로써, 불필요한 정보의 반복 처리를 줄임<br>&nbsp; &nbsp; - &nbsp;필요한 정보만을 선택적으로 활용하여 계산 자원을 효율적임]]></description><link>paper\titans-learning-to-memorize-at-test-time-review.html</link><guid isPermaLink="false">paper/Titans-Learning to Memorize at Test Time review.md</guid><pubDate>Mon, 03 Mar 2025 00:36:05 GMT</pubDate></item><item><title><![CDATA[<font color="#31859b">Summary</font>]]></title><description><![CDATA[ 
+ <br><br><br>Zep은 동적 지식 그래프를 활용하여 AI 에이전트의 장기 기억을 개선하는 새로운 메모리 계층 서비스로, 기존 MemGPT 대비 우수한 성능을 보인다 [Abstract, p.1].
+<br><br>Zep은 정적인 문서 검색에 의존하는 기존 RAG(Retrieval-Augmented Generation) 시스템의 한계를 극복하고, Graphiti라는 시간 인식 지식 그래프 엔진을 활용하여 대화 데이터 및 구조화된 데이터를 동적으로 통합한다 [Abstract, p.1].
+<br>DMR 벤치마크에서 MemGPT보다 높은 94.8%의 성능을 기록했으며 [Abstract, p.2]
+<br>LongMemEval 벤치마크에서는 18.5% 향상된 정확도를 보였다 [Abstract, p.2].
+<br><br>기존 RAG 시스템은 문맥 유지가 어렵고 실시간 데이터 업데이트가 불가능한 한계를 지닌다 [Abstract, p.1-2]
+<br>Zep은 이러한 문제를 해결하기 위해 Graphiti 엔진을 기반으로 한 동적 지식 그래프를 활용하여 장기 기억을 효과적으로 관리한다 [Abstract, p.2]
+<br>이를 통해 기업 환경에서의 세션 간 정보 통합 및 장기 문맥 유지가 가능해진다 [Abstract, p.2]
+<br>실험 결과, Zep은 MemGPT 대비 성능이 향상되었으며 [Introduction, p.2]
+<br>검색 속도를 90% 이상 단축하여 실시간 응답성을 대폭 개선했다 [Introduction, p.2].
+<br><br><br>
+기존 RAG 프레임워크는 정적인 문서 검색에 의존하여 실시간 데이터 통합이 어려운 문제가 있다 [Abstract, p.1].
+<br>
+<br>기존 AI 에이전트는 문맥 창 크기가 제한적이므로 장기적인 정보 보유가 어렵다.
+<br>기업 환경에서는 지속적으로 변화하는 대화 데이터 및 비즈니스 데이터를 활용한 동적 메모리가 필요하다.
+<br>Zep은 Graphiti 엔진을 활용하여 동적 지식 그래프를 구축함으로써 이러한 문제를 해결한다.
+
+"While existing retrieval-augmented generation (RAG) frameworks for large language model (LLM)-based agents are limited to static document retrieval, enterprise applications demand dynamic knowledge integration from diverse sources including ongoing conversations and business data."[Abstract, p.1]
+
+
+<br><br>
+<br>기존 RAG 시스템은 정적인 문서 검색에 의존하며, 실시간 데이터 업데이트가 어렵다.
+<br>Knowledge Graphs(KGs)는 RAG의 한계를 보완하기 위해 도입되었으며, 다양한 형태의 데이터를 통합하는 데 효과적이다.
+<br>Graphiti 엔진은 기존 KG의 한계를 개선하여 시간 정보를 유지하는 동적 지식 그래프를 제공한다.
+
+"Current approaches using RAG have focused on broad domain knowledge and largely static corpora—that is, document contents added to a corpus seldom change."[Introduction, p.2]
+
+
+<br><br>
+<br>정적 문서 검색의 한계: 기존 RAG 시스템은 변화하는 데이터를 실시간으로 반영하지 못한다 [Introduction, p.2].
+<br>LLM 문맥 창의 제약: LLM이 다룰 수 있는 컨텍스트 길이가 제한적이므로 장기 문맥 유지가 어렵다 [Introduction, p.2].
+<br>기업 환경에서의 비효율성: 실시간 대화 및 비즈니스 데이터를 효과적으로 통합할 수 있는 메모리 시스템이 부족하다 [Introduction, p.2].
+<br>장기 문맥 유지의 어려움: 기존 시스템은 세션 간 정보 연결이 어렵다 [Introduction, p.3].
+<br><br><br>
+<br>Graphiti는 시간 인식이 가능한 지식 그래프 엔진으로, 대화 데이터 및 비즈니스 데이터를 실시간으로 업데이트함.
+<br>기존 정보와의 관계를 유지하며, 새로운 데이터가 추가될 경우 자동으로 업데이트.
+<br>세 개의 서브그래프 구조로 구성됨<br>
+1. Episode Subgraph (Ge): 원시 대화 데이터를 저장하는 계층.<br>
+2. Semantic Entity Subgraph (Gs): 대화에서 추출된 개체 간 관계를 구성하는 계층.<br>
+3. Community Subgraph (Gc): 개체의 군집을 형성하고, 의미론적 연관성을 추출하는 계층.
+
+_"Graphiti KG engine dynamically updates the knowledge graph with new information in a non-lossy manner, maintaining a timeline of facts and relationships, including their periods of validity."[Knowledge Graph Construction, p.3]
+
+
+<br><br>
+<br>대화 내 날짜 및 시간 정보를 활용하여 정보의 유효 기간을 추적합니다
+<br>새로운 정보가 추가될 경우, 기존 정보를 자동으로 무효화하여 최신 정보를 유지합니다.
+<br><br>검색 함수<br>
+<br>검색 기능은 다음과 같은 함수를 사용하여 표현됩니다 [Memory Retrieval, p.5].
+<br>입력 쿼리 qqq 에 대해 관련성이 높은 엔티티 노드(NsN_sNs​), 커뮤니티 노드(NcN_cNc​), 그리고 의미적 엣지(EsE_sEs​)를 반환합니다 [Memory Retrieval, p.5].
+<br>재정렬<br>
+<br>검색 결과를 정렬하는 함수 ρ\rhoρ 를 사용합니다 [Memory Retrieval, p.5].
+<br>여기서 ρ\rhoρ 는 검색 결과를 정렬하여 가장 관련성이 높은 정보를 우선 제공하는 역할을 합니다 [Memory Retrieval, p.5].
+<br><br>
+<br>
+
+
+<br>MemGPT 대비 94.8% 성능 향상 (gpt-4-turbo 기준)
+<br>세션 간 정보 연결 및 장기 문맥 유지에서 높은 정확도 기록
+
+
+<br>
+
+
+<br>gpt-4o-mini 기준, 기존 방법 대비 15.2% 정확도 향상
+<br>gpt-4o 기준, 18.5% 성능 향상
+
+
+]]></description><link>paper\zep-a-temporal-knowledge-graph-architecture-for-agent-memory-review.html</link><guid isPermaLink="false">paper/ZEP- A TEMPORAL KNOWLEDGE GRAPH ARCHITECTURE FOR AGENT MEMORY review.md</guid><pubDate>Sun, 02 Mar 2025 23:08:21 GMT</pubDate></item><item><title><![CDATA[<font color="#31859b">Summary</font>]]></title><description><![CDATA[ 
+ <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+??
+<br><br>
+??
+<br><br>
+??
+<br><br>
+??
+]]></description><link>templates\paper-review-template.html</link><guid isPermaLink="false">templates/Paper Review Template.md</guid><dc:creator><![CDATA[A,B]]></dc:creator><pubDate>Sun, 02 Mar 2025 18:22:36 GMT</pubDate></item><item><title><![CDATA["전역최적해" 팀 소개]]></title><description><![CDATA[ 
  <br><br><a data-tooltip-position="top" aria-label="https://choiseungje.github.io/choiseungje-%EA%B0%9C%EC%9D%B8/" rel="noopener" class="external-link" href="https://choiseungje.github.io/choiseungje-%EA%B0%9C%EC%9D%B8/" target="_blank">최승제</a>(팀장)<br>
 <a data-tooltip-position="top" aria-label="https://wldwlddl.github.io/" rel="noopener" class="external-link" href="https://wldwlddl.github.io/" target="_blank">김수진</a><br>
 <a data-tooltip-position="top" aria-label="https://rshyun.github.io/" rel="noopener" class="external-link" href="https://rshyun.github.io/" target="_blank">류시현</a><br><br>멀티모달 구현을 하기 위해  모델에게 학습시키는 데이터의  전처리 방법 학습과 학습 및 생성 방식을 설계하는 팀입니다  <br><br><br><br><br><br><br><br><br>이번 방학 동안 참여한 모각코 활동은 나태해질 수 있는 방학 기간을 알차게 보내는 데 큰 도움이 되었습니다.방학은 자칫하면 계획없이 시간을 흘려보내기 쉬운데, 모각코 덕분에 규칙적인 일정을 유지하며 의미 있는 시간을 보낼 수 있었습니다. 특히, 생성 모델 분야에 처음 도전하게 된 것은 이번 모각코 활동의 가장 큰 성과중 하나입니다. 처음 접해보는 분야이기에 막막함과 어려움이 있었지만, 팀원들과 함께 협력하면서 이를 극복 할 수 있었습니다. 혼자였다면 쉽게 포기했을지도 모르는 문제들을, 팀원들의 도움과 조언 덕분에 해결 할 수 있었습니다.]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Fri, 23 Aug 2024 07:23:16 GMT</pubDate></item><item><title><![CDATA[목표]]></title><description><![CDATA[ 

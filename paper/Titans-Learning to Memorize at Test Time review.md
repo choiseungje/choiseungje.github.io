@@ -143,8 +143,6 @@ Titans은 신경망 기반의 장기 기억 모듈을 도입하여 Transformer�
 
 - 장기 기억을 포함하는 새로운 구조가 필요하다.\[12:§1].
 
-- RNN 및 Linear Transformer 모델은 장기 문맥을 저장하지만, 효과적으로 활용하는 메커니즘이 부족하다\[12:§2].
-
 - 기존 Transformer는 문맥 창 크기에 따라 계산 비용이 기하급수적으로 증가한다\[12:§2, §3].
 
   
@@ -174,7 +172,7 @@ Titans은 신경망 기반의 장기 기억 모듈을 도입하여 Transformer�
     **3. Memory as a Layer (MAL) – 기억을 독립적인 계층(layer)으로 추가**
 
         - Transformer 구조에 별도의 장기 기억 레이어를 추가하여, 기존 레이어와 독립적으로 학습하는 방식\["We then use this historical information along with our persistent memory parameters as the input sequence to the attention module."]\[12:§4.3]
-
+>St​=∣∇ℓ(Mt−1​;xt​)∣
 ##### 2.신경망 기반 장기 기억 (Neural Long-term Memory)
 
 - Titans은 신경망 기반 장기 기억 모듈(Neural Memory Module)을 추가하여, 과거 데이터를 저장하고 적절한 시점에 이를 참조할 수 있도록 한다\[12:§3].
