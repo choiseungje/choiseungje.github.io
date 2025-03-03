@@ -240,47 +240,9 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "floating": {
-    "id": "09bad390f6d1207c",
-    "type": "floating",
-    "children": [
-      {
-        "id": "c4e1f6f6eb2a13cc",
-        "type": "window",
-        "children": [
-          {
-            "id": "1c0c45ef964732c2",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "5051530b5268c2d9",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "paper/ZEP- A TEMPORAL KNOWLEDGE GRAPH ARCHITECTURE FOR AGENT MEMORY review.md",
-                    "mode": "source",
-                    "source": true
-                  },
-                  "icon": "lucide-file",
-                  "title": "ZEP- A TEMPORAL KNOWLEDGE GRAPH ARCHITECTURE FOR AGENT MEMORY review"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 317,
-        "y": 316,
-        "width": 902,
-        "height": 500,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "5051530b5268c2d9",
+  "active": "af6d47ac12660b1e",
   "lastOpenFiles": [
+    "docs/lib/media/6155340132a851f6089e.svg",
     "docs/templates/paper-review-template.html",
     "docs/templates",
     "docs/paper/zep-a-temporal-knowledge-graph-architecture-for-agent-memory-review.html",
@@ -299,7 +261,6 @@
     "paper/Titans Learning to Memorize at Test Time.md",
     "templates/Paper Review Template.md",
     "templates",
-    "새 폴더",
     "paper/Paper Review Template/Paper Review Template.md",
     "paper/Paper Review Template 1.file/Paper Review Template.md",
     "paper/paper.md",
